@@ -1,0 +1,11 @@
+---
+name: Consultas básicas
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: sqlite
+id_format: "%05d"
+order:
+- 1
+private: true

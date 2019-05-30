@@ -1,0 +1,1 @@
+Ya dimos los primeros pasos con SQL, ahora vamos a entrar de lleno en las consultas!

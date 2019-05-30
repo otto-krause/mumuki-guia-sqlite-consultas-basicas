@@ -75,6 +75,12 @@ A continuación te presentamos el DER que vamos a estar utilizando durante las p
           "to": { "entity": "Usuario", "column": "idUsuario" },
           "type": "many_to_one"
         }
+      },
+      "titulo": {
+        "type": "Varchar"
+      },
+      "cantidadDeVideos": {
+        "type": "Integer"
       }
     }
   }'>

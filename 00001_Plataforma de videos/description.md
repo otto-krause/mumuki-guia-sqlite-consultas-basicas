@@ -46,21 +46,35 @@ A continuación te presentamos el DER que vamos a estar utilizando durante las p
         "type": "Varchar"
       }
     },
-    "Entity_3": {
-      "ent3_id": {
-        "type": "Integer",
-        "pk": true
-      },
-      "ent2_id": {
+    "VIDEO_LISTA": {
+      "idVideo": {
         "type": "Integer",
         "pk": true,
         "fk": {
-          "to": { "entity": "Entity_2", "column": "ent2_id" },
+          "to": { "entity": "Video", "column": "idVideo" },
           "type": "many_to_one"
         }
       },
-      "ent1_description": {
-        "type": "Varchar"
+      "idLista": {
+        "type": "Integer",
+        "pk": true,
+        "fk": {
+          "to": { "entity": "ListaDeReproduccion", "column": "idLista" },
+          "type": "many_to_one"
+        }
+      }
+    },
+    "ListaDeReproduccion": {
+      "idLista": {
+        "type": "Integer",
+        "pk": true
+      },
+      "idUsuario": {
+        "type": "Integer",
+        "fk": {
+          "to": { "entity": "Usuario", "column": "idUsuario" },
+          "type": "many_to_one"
+        }
       }
     }
   }'>

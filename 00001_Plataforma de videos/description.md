@@ -85,3 +85,10 @@ A continuación te presentamos el DER que vamos a estar utilizando durante las p
     }
   }'>
 </div>
+
+Para tener en cuenta:
+
+* Todos los videos son creados por un único usuario.
+* Todas las listas de reproducción son creadas por un único usuario.
+* Las listas de reproducción pueden tener muchos videos, y los videos pueden aparecer en multiples listas de reprodución, por eso existe la entidad intermedia.
+* 

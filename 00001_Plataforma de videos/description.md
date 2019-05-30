@@ -2,27 +2,48 @@ A continuación te presentamos el DER que vamos a estar utilizando durante las p
 
 <div class='mu-erd'
   data-entities='{
-    "Entity_1": {
-      "ent1_id": {
+    "Video": {
+      "idVideo": {
         "type": "Integer",
         "pk": true
       },
-      "ent2_id": {
+      "usuario": {
         "type": "Integer",
-        "pk": true,
+        "pk": false,
         "fk": {
-          "to": { "entity": "Entity_2", "column": "ent2_id" },
-          "type": "one_to_one"
+          "to": { "entity": "Usuario", "column": "idUsuario" },
+          "type": "many_to_one"
         }
       },
-      "ent1_description": {
+      "link": {
+        "type": "Varchar"
+      },
+      "duracion": {
+        "type": "Integer"
+      },
+      "likes": {
+        "type": "Integer"
+      },
+      "titulo": {
         "type": "Varchar"
       }
     },
-    "Entity_2": {
-      "ent2_id": {
+    "Usuario": {
+      "idUsuario": {
         "type": "Integer",
         "pk": true
+      },
+      "username": {
+        "type": "Varchar"
+      },
+      "nombre": {
+        "type": "Varchar"
+      },
+      "apellido": {
+        "type": "Varchar"
+      },
+      "mail": {
+        "type": "Varchar"
       }
     },
     "Entity_3": {

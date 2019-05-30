@@ -2,6 +2,24 @@ A continuación te presentamos el DER que vamos a estar utilizando durante las p
 
 <div class='mu-erd'
   data-entities='{
+  "Usuario": {
+      "idUsuario": {
+        "type": "Integer",
+        "pk": true
+      },
+      "username": {
+        "type": "Varchar"
+      },
+      "nombre": {
+        "type": "Varchar"
+      },
+      "apellido": {
+        "type": "Varchar"
+      },
+      "mail": {
+        "type": "Varchar"
+      }
+    },
     "Video": {
       "idVideo": {
         "type": "Integer",
@@ -25,24 +43,6 @@ A continuación te presentamos el DER que vamos a estar utilizando durante las p
         "type": "Integer"
       },
       "titulo": {
-        "type": "Varchar"
-      }
-    },
-    "Usuario": {
-      "idUsuario": {
-        "type": "Integer",
-        "pk": true
-      },
-      "username": {
-        "type": "Varchar"
-      },
-      "nombre": {
-        "type": "Varchar"
-      },
-      "apellido": {
-        "type": "Varchar"
-      },
-      "mail": {
         "type": "Varchar"
       }
     },

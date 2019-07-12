@@ -1,6 +1,5 @@
-describe ("Prueba de función") 
+describe ("Prueba") 
 {
-  
   it ("Ingrese su nombre")
   {
     prueba();

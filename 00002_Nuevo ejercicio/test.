@@ -1,6 +1,6 @@
 describe ("Prueba de función") 
 {
-  /*
+  
   it ("Ingrese su nombre\n")
   {
     prueba();

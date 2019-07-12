@@ -13,7 +13,7 @@ describe ("Prueba de función")
   
   it ("Su nombre es Juan y tiene 35 años")
   {
-    should_string(salidas[0]) be equal to("Su nombre es Juan y tiene 35 años");
+    should_string(entradas[0]) be equal to("Su nombre es Juan y tiene 35 años");
   } end
   
 } end

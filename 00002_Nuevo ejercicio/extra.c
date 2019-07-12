@@ -23,7 +23,7 @@ void printm(const char * format, ... )
   va_end (args);
   contSalidas++;
 }
-
+/*
 int main()
 {
     
@@ -41,3 +41,4 @@ int main()
     printf("%s",salidas[0]);
     return 0;
 }
+*/

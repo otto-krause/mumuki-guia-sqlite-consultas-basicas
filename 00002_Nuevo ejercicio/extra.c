@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-char entradas[2][10] = {
+char entradas[2][40] = {
   "Hola Juan",
   "Que tal"
 };

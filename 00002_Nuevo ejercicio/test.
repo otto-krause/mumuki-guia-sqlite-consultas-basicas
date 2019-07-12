@@ -3,12 +3,12 @@ describe ("Prueba de función")
   it ("Hola Juan")
   {
     prueba();
-    should_string(salidas[0]) be equal to("Hola");
+    should_string(salidas[0]) be equal to("Hola Juan");
   } end
   
   it ("Como estas")
   {
-    should_string(salidas[1]) be equal to("Juan");
+    should_string(salidas[1]) be equal to("Como estas");
   } end
   
 } end

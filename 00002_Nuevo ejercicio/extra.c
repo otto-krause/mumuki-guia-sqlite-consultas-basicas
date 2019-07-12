@@ -2,8 +2,8 @@
 #include <stdarg.h>
 
 char entradas[2][40] = {
-  "Hola Juan",
-  "Que tal"
+  "Juan",
+  "35"
 };
 char salidas[2][30];
 

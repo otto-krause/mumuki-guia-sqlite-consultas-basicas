@@ -1,0 +1,14 @@
+describe ("Prueba de función") 
+{
+  it ("Hola")
+  {
+    prueba();
+    should_string(salidas[0]) be equal to("Hola");
+  } end
+  
+  it ("Juan")
+  {
+    should_string(salidas[1]) be equal to("Juan");
+  } end
+  
+} end

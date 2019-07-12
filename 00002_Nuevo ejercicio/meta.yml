@@ -5,6 +5,6 @@ editor: code
 type: problem
 extra_visible: false
 language: c
-manual_evaluation: true
+manual_evaluation: false
 choices: []
 name: Nuevo ejercicio

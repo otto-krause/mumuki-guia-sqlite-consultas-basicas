@@ -1,0 +1,10 @@
+---
+tags: []
+layout: input_right
+editor: code
+type: problem
+extra_visible: false
+language: c
+manual_evaluation: true
+choices: []
+name: Nuevo ejercicio

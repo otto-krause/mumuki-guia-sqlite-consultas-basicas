@@ -1,8 +1,9 @@
 describe ("Prueba de función") 
 {
-  prueba();
+  
   it ("Ingrese su nombre\n")
   {
+    prueba();
     should_string(salidas[0]) be equal to("Ingrese su nombre\n");
   } end
   

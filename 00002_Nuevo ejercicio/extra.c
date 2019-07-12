@@ -11,7 +11,7 @@ int contEntradas=0;
 int contSalidas=0;
 
 void scanm(char * textoFormateado, void * destino){
-    sscanf(entradas[contEntradas],"%s",destino);
+    sscanf(entradas[contEntradas],"%s",(char*)destino);
     contEntradas++;
 }
 

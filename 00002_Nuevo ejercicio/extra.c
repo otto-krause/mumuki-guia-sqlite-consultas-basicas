@@ -5,7 +5,7 @@ char entradas[2][40] = {
   "Juan",
   "35"
 };
-char salidas[2][40];
+char salidas[2][70];
 
 int contEntradas=0;
 int contSalidas=0;

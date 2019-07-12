@@ -1,14 +1,20 @@
 describe ("Prueba de función") 
 {
-  it ("Hola Juan")
+  it ("Ingrese su nombre\n")
   {
     prueba();
-    should_string(salidas[0]) be equal to("Hola Juan");
+    should_string(salidas[0]) be equal to("Ingrese su nombre\n");
   } end
   
-  it ("Como estas")
+  it ("Ingrese su edad\n")
   {
-    should_string(salidas[1]) be equal to("Como estas");
+    prueba();
+    should_string(salidas[1]) be equal to("Ingrese su edad\n");
+  } end
+  
+  it ("Su nombre es Juan y tiene 35 años")
+  {
+    should_string(salidas[0]) be equal to("Su nombre es Juan y tiene 35 años");
   } end
   
 } end
